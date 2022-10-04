@@ -15,7 +15,7 @@ public class Main {
         String[] palabrasSeparadas = separarPalabras(nombre);
         String acronimo = "";
         for (String palabra : palabrasSeparadas) {
-            if (palabra.length() < 3) {
+            if (palabra.length() < 4) {
                 acronimo += palabra.toLowerCase(Locale.ROOT).charAt(0);
             } else {
                 acronimo += palabra.toUpperCase(Locale.ROOT).charAt(0);
